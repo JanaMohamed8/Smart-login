@@ -1,0 +1,58 @@
+:root{
+    --main-color:#24353F;
+    --second-color:rgb(23, 162, 184);
+}
+/* signin */
+body{
+    font-family:"Titillium Web", sans-serif ;
+}
+
+body{
+    background-color:var(--main-color) ;
+}
+main{
+   height: calc(100vh - 60px);
+}
+h1{
+   color: var(--second-color);
+}
+#innerSignin,#innerSignUp{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 3rem;
+    margin-top: 50px;
+}
+.anchor:hover{
+    text-decoration: underline;
+}
+.anchor{
+    text-decoration: none;
+}
+.form-control{
+    background-color: transparent !important;
+    color: #fff !important;
+   margin-top: 20px;
+}
+.form-control:focus {
+    background-color: transparent !important;
+    color: #fff !important;
+    border-color: none;
+    outline: 0;
+    box-shadow:none;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+}
+#welcomeMsg{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.user-msg{
+    color: var(--second-color);
+    font-weight: 500;
+    font-size: 40px;
+}
+::placeholder {
+    color: #fff !important;
+    opacity: 0.6 !important; 
+    font-family: inherit;
+    font-size: 14px !important;
+ }

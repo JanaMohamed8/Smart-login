@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- important meta -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- meta disc -->
+     <meta name="description" content="register , login your acount ">
+     <meta name="keywords" content="login,smart login">
+     <!-- tab -->
+     <title>Login</title>
+     <!-- style links -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+     <!-- font links -->
+     
+</head>
+<body>
+    
+     <main>
+        <div id="signUpBox">
+            <div class="container">
+                <div class="row justify-content-center">
+                     <div id="innerSignUp" class="col-lg-8 text-center">
+                        <h1>
+                            Smart Login System
+                          </h1>
+                          <div id="inputSignin" class="mt-4">
+                            <input type="text" class="form-control" id="signInputName" placeholder="Enter your name" required>
+                
+                            <input type="email" class="form-control" id="signInputEmail" placeholder="Enter your email" required>
+                          
+                            <input type="password" class="form-control" id="signInputPassword" placeholder="Enter your password" required>
+              
+                          </div>
+                          <div class="d-grid gap-2 mt-4">
+                            <button class="btn btn-outline-info" type="button" id="signUpBtn">Sign Up</button>
+                          </div>
+                          <p class="text-white py-3">You have an account?   <a href="index.html" class="text-white anchor" >Signin</a></p>
+                          <p class="lead d-none text-white">account is unavailable, please change the data</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+       <div id="alert" class="text-info fs-5 w-50 m-auto pt-2 d-none ">
+        <p> Follow The Following Rules To register: </p>
+        <span class="d-block">Name must start with character max 30 min 3 char.</span>
+        <span class="d-block">Enter valid email account.</span>
+        <span class="d-block">Password minimum eight, maximum 30 characters or numbers</span>
+       </div>
+     </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

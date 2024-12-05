@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- important meta -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- meta disc -->
+     <meta name="description" content="register , login your acount ">
+     <meta name="keywords" content="login,smart login">
+     <!-- tab -->
+     <title>Login</title>
+     <!-- style links -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+     <!-- font links -->
+     
+</head>
+<body>
+    
+     <main>
+        <div id="signInBox">
+            <div class="container">
+                <div class="row justify-content-center">
+                     <div id="innerSignin" class="col-lg-8 text-center">
+                        <h1>
+                            Smart Login System
+                          </h1>
+                          <div id="inputSignin" class="mt-4">
+                            <input type="email" class="form-control" id="signInputEmail" placeholder="Enter your email" required>
+                      
+                            <input type="password" class="form-control" id="signInputPassword" placeholder="Enter your password" required>
+                          </div>
+                          <div class="d-grid gap-2 mt-4">
+                            <button class="btn btn-outline-info" type="button" id="signInBtn">Login</button>
+                          </div>
+                          <p class="text-white py-3">Don’t have an account?  <a href="signup.html" class="text-white anchor">Sign Up</a></p>
+                          <p id="incorrectAccount" class="d-none text-info">InCorrect Email Or PassWord</p>
+                     </div>
+                </div>
+            </div>
+            
+        </div>
+        
+     </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
